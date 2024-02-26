@@ -1,0 +1,20 @@
+{
+    "name": "teamhubcore/hubsquare-mod-intracom",
+    "description": "Aggiunge il supporto per i Model di Eloquent al recupero e alla modifica tramite API CRUD",
+    "version": "1.0.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Enrico Pascucci",
+            "email": "enrico.pascucci@hubcore.ai"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "TeamHubcore\\ModIntracom\\": "./src/"
+        }
+    }
+}
